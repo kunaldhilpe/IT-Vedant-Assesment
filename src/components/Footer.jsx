@@ -107,13 +107,13 @@ export default function Footer() {
               Follow
             </Typography>
             <Stack direction="row" spacing={0.5}>
-              <IconButton size="small" aria-label="ClassIQ on Facebook" href="#" color="inherit">
+              <IconButton size="small" aria-label="ClassIQ on Facebook"  color="inherit">
                 <FacebookRoundedIcon fontSize="small" />
               </IconButton>
-              <IconButton size="small" aria-label="ClassIQ on Instagram" href="#" color="inherit">
+              <IconButton size="small" aria-label="ClassIQ on Instagram"  color="inherit">
                 <InstagramIcon fontSize="small" />
               </IconButton>
-              <IconButton size="small" aria-label="ClassIQ on LinkedIn" href="#" color="inherit">
+              <IconButton size="small" aria-label="ClassIQ on LinkedIn"  color="inherit">
                 <LinkedInIcon fontSize="small" />
               </IconButton>
             </Stack>
