@@ -41,7 +41,8 @@ export default function App() {
             <Route path="/courses" element={<Courses />} />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/signin" element={<SignIn />} />
-            <Route path="*" element={<NotFound />} />
+            {/* <Route path="*" element={<NotFound />} /> */}
+            <Route path="*" element={<Home />} />
           </Routes>
         </Suspense>
       </Box>
